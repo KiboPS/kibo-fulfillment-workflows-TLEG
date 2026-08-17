@@ -1,1 +1,0 @@
-{"id":"b8082084-c362-414a-b80b-27f0a6a89365","name":"PrintPickListUserTask-taskform.frm","model":{"taskName":"PrintPickListUserTask","processId":"TLEG_Custom_BOPIS","properties":[],"formModelType":"org.kie.workbench.common.forms.jbpm.model.authoring.task.TaskFormModel"},"fields":[],"layoutTemplate":{"version":3,"style":"FLUID","layoutProperties":{},"rows":[]}}
