@@ -413,10 +413,10 @@ System.out.println(kcontext.getVariable("currentState"));]]></drools:script>
       <bpmn2:script><![CDATA[kcontext.setVariable("currentState","COMPLETED");
 System.out.println(kcontext.getVariable("currentState"));]]></bpmn2:script>
     </bpmn2:scriptTask>
-    <bpmn2:userTask id="_FC247940-ED17-480E-BB20-4D2E1299AFBD" name="Place in Storage &amp; Trigger Ready to Collect">
+    <bpmn2:userTask id="_FC247940-ED17-480E-BB20-4D2E1299AFBD" name="Place in Storage and Trigger Ready to Collect">
       <bpmn2:extensionElements>
         <drools:metaData name="elementname">
-          <drools:metaValue><![CDATA[Place in Storage & Trigger Ready to Collect]]></drools:metaValue>
+          <drools:metaValue><![CDATA[Place in Storage and Trigger Ready to Collect]]></drools:metaValue>
         </drools:metaData>
         <drools:onExit-script scriptFormat="http://www.java.com/java">
           <drools:script><![CDATA[kcontext.setVariable("currentState","READY_FOR_PICKUP");]]></drools:script>
@@ -454,7 +454,7 @@ System.out.println(kcontext.getVariable("currentState"));]]></bpmn2:script>
       <bpmn2:dataInputAssociation id="_HZTU_LEnEfGX74J02Ts1Ig">
         <bpmn2:targetRef>_FC247940-ED17-480E-BB20-4D2E1299AFBD_CommentInputX</bpmn2:targetRef>
         <bpmn2:assignment id="_HZTU_bEnEfGX74J02Ts1Ig">
-          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_HZTU_rEnEfGX74J02Ts1Ig"><![CDATA[Place in Storage & Trigger Ready to Collect]]></bpmn2:from>
+          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_HZTU_rEnEfGX74J02Ts1Ig"><![CDATA[Place in Storage and Trigger Ready to Collect]]></bpmn2:from>
           <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_HZTU_7EnEfGX74J02Ts1Ig">_FC247940-ED17-480E-BB20-4D2E1299AFBD_CommentInputX</bpmn2:to>
         </bpmn2:assignment>
       </bpmn2:dataInputAssociation>
